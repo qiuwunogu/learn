@@ -6,3 +6,5 @@ dh -h   显示文件夹大小
 
 pmap pid 显示进程详细内存
 netstap -apn 显示套接字信息
+
+查看程序是否可调试： readelf -S filename | grep debug，带-g的会有.debug_info .debug_line等信息
