@@ -8,3 +8,5 @@ su root
 修改文件终端用gedit命令或者gvim这样的图形化文本编辑器，会比较方便。
 ubuntu默认是不允许root用户登陆图形界面。
 可以修改不过麻烦死了。
+
+apt-get install openssh-server
