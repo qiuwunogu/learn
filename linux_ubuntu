@@ -1,3 +1,4 @@
+#登录root用户
 sudo -i
 获取root权限。
 如果这样权限还是不够，
@@ -9,4 +10,9 @@ su root
 ubuntu默认是不允许root用户登陆图形界面。
 可以修改不过麻烦死了。
 
+#安装ssh
 apt-get install openssh-server
+
+#安装jdk
+javac //会列出现有的jdk名字
+apt-get install ...
