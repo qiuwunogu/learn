@@ -1,0 +1,11 @@
+config: /etc/samba/smb.conf
+[root]
+comment = All Printers
+   browseable = yes
+   path = /root/code
+   printable = no
+   guest ok = no
+   read only = no
+   create mask = 0765
+   
+  添加用户：smbpasswd -a root
