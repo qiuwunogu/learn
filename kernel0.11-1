@@ -1,0 +1,7 @@
+#define _syscall0(type,name) http://blog.chinaunix.net/uid-23215128-id-2521221.html
+ http://blog.csdn.net/robbie1314/article/details/6329329
+ http://blog.sina.com.cn/s/blog_5385755f010161r2.html
+ http://blog.csdn.net/robbie1314/article/details/6329880
+ +系统总线 http://baike.baidu.com/link?url=SNPM20yvSsQnlpUYHYyQqSiTIWj4lQ6mY26f-EOGQvQSE6P6eM99AaSevuwjsRlOZ9oHbbWkoTuKDNtD9bSK2a
+
+## 在宏中的意思是两次宏展开，宏中的字符直接替换，最后会去掉“##”
